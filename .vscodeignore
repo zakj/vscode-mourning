@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+package-lock.json
+template.json
+vars.json
+vsc-extension-quickstart.md

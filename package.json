@@ -1,0 +1,35 @@
+{
+  "name": "mourning",
+  "displayName": "mourning",
+  "description": "Minimal, monochrome-ish dark theme",
+  "repository": "https://github.com/zakj/vscode-mourning",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "publisher": "TODO",
+  "scripts": {
+    "build": "mustache vars.json template.json >themes/theme.json",
+    "dist": "npm run build && vsce package",
+    "start": "chokidar vars.json template.json -c 'npm run build'"
+  },
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mourning",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "mustache": "^2.3.0",
+    "vsce": "^1.41.0"
+  }
+}

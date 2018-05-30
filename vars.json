@@ -1,0 +1,26 @@
+{
+  "black": "#080808",
+  "mineshaft0": "#1c1c1c",
+  "mineshaft1": "#262626",
+  "mineshaft2": "#3a3a3a",
+  "boulder": "#585858",
+  "dark-grey": "#6c6c6c",
+  "grey": "#8a8a8a",
+  "silver": "#bcbcbc",
+  "white": "#e4e4e4",
+
+  "orient": "#005f87",
+  "comet": "#5f5f87",
+  "scampi": "#5f5faf",
+  "juniper": "#5f8787",
+  "malibu": "#5fafff",
+  "bright-green": "#5fff87",
+  "maroon": "#870000",
+  "wisteria": "#875f87",
+  "wild-blue": "#8787af",
+  "mint-green": "#87ffaf",
+  "bright-red": "#af0000",
+  "red": "#d70000",
+  "green-yellow": "#afff5f",
+  "bittersweet": "#ff5f5f"
+}

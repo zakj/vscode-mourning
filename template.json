@@ -1,0 +1,68 @@
+{
+  "name": "Mourning",
+  "type": "dark",
+
+  // https://code.visualstudio.com/docs/getstarted/theme-color-reference
+  "colors": {
+    "editor.background": "{{mineshaft0}}",
+    "editor.foreground": "{{grey}}",
+    "editorBracketMatch.border": "{{bright-green}}",
+    "editorCursor.background": "{{black}}",
+    "editorCursor.foreground": "{{bright-green}}",
+    "editorLineNumber.activeForeground": "{{boulder}}",
+    "editorLineNumber.foreground": "{{mineshaft2}}",
+
+    "statusBar.background": "{{black}}",
+    "statusBar.foreground": "{{silver}}",
+    "statusBarItem.prominentBackground": "{{boulder}}",
+    "statusBarItem.prominentForeground": "{{silver}}",
+
+    "titleBar.activeBackground": "{{black}}",
+    "titleBar.activeForeground": "{{silver}}",
+    "titleBar.inactiveBackground": "{{black}}",
+    "titleBar.inactiveForeground": "{{grey}}"
+
+    // "titleBar.border": "Title bar border color."
+    // statusBar.border: Status Bar border color separating the Status Bar and editor.
+    // statusBar.debuggingBackground: Status Bar background color when a program is being debugged.
+    // statusBar.debuggingForeground: Status Bar foreground color when a program is being debugged.
+    // statusBar.debuggingBorder: Status Bar border color separating the Status Bar and editor when a program is being debugged.
+    // statusBar.noFolderForeground: Status Bar foreground color when no folder is opened.
+    // statusBar.noFolderBackground: Status Bar background color when no folder is opened.
+    // statusBar.noFolderBorder: Status Bar border color separating the Status Bar and editor when no folder is opened.
+  },
+
+  // https://www.sublimetext.com/docs/3/scope_naming.html
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "{{boulder}}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Constants and strings",
+      "scope": ["constant", "string"],
+      "settings": {
+        "foreground": "{{wild-blue}}"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "entity.name.tag"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "{{silver}}"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "{{silver}}"
+      }
+    }
+  ]
+}

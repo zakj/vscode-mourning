@@ -12,14 +12,13 @@
     "editorLineNumber.activeForeground": "{{boulder}}",
     "editorLineNumber.foreground": "{{mineshaft2}}",
 
-    "statusBar.background": "{{black}}",
+    "statusBar.background": "#333333",
     "statusBar.foreground": "{{silver}}",
     "statusBarItem.prominentBackground": "{{boulder}}",
-    "statusBarItem.prominentForeground": "{{silver}}",
 
-    "titleBar.activeBackground": "{{black}}",
+    "titleBar.activeBackground": "#333333",
     "titleBar.activeForeground": "{{silver}}",
-    "titleBar.inactiveBackground": "{{black}}",
+    "titleBar.inactiveBackground": "#333333",
     "titleBar.inactiveForeground": "{{grey}}"
 
     // "titleBar.border": "Title bar border color."

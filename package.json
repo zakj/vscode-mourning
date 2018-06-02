@@ -8,7 +8,7 @@
   "private": true,
   "publisher": "TODO",
   "scripts": {
-    "build": "mustache vars.json template.json >themes/theme.json",
+    "build": "mkdir -p themes && mustache vars.json template.json >themes/theme.json",
     "dist": "npm run build && vsce package",
     "start": "chokidar vars.json template.json -c 'npm run build'"
   },

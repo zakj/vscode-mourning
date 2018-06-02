@@ -4,6 +4,24 @@
 
   // https://code.visualstudio.com/docs/getstarted/theme-color-reference
   "colors": {
+    "titleBar.activeBackground": "{{mineshaft2}}",
+    "titleBar.activeForeground": "{{silver}}",
+    "titleBar.inactiveBackground": "{{mineshaft2}}",
+    "titleBar.inactiveForeground": "{{grey}}",
+
+    "activityBar.background": "{{mineshaft2}}",
+    "activityBar.foreground": "{{silver}}",
+
+    "sideBar.background": "{{mineshaft1}}",
+    "sideBar.foreground": "{{grey}}",
+    "sideBarTitle.foreground": "{{silver}}",
+    "sideBarSectionHeader.background": "{{mineshaft2}}",
+    "sideBarSectionHeader.foreground": "{{silver}}",
+
+    "editorGroupHeader.tabsBackground": "{{mineshaft1}}",
+    "tab.inactiveBackground": "{{mineshaft1}}",
+    "tab.activeBackground": "{{mineshaft0}}",
+
     "editor.background": "{{mineshaft0}}",
     "editor.foreground": "{{grey}}",
     "editorBracketMatch.border": "{{bright-green}}",
@@ -12,23 +30,13 @@
     "editorLineNumber.activeForeground": "{{boulder}}",
     "editorLineNumber.foreground": "{{mineshaft2}}",
 
-    "statusBar.background": "#333333",
+    "statusBar.background": "{{mineshaft2}}",
     "statusBar.foreground": "{{silver}}",
-    "statusBarItem.prominentBackground": "{{boulder}}",
-
-    "titleBar.activeBackground": "#333333",
-    "titleBar.activeForeground": "{{silver}}",
-    "titleBar.inactiveBackground": "#333333",
-    "titleBar.inactiveForeground": "{{grey}}"
-
-    // "titleBar.border": "Title bar border color."
-    // statusBar.border: Status Bar border color separating the Status Bar and editor.
-    // statusBar.debuggingBackground: Status Bar background color when a program is being debugged.
-    // statusBar.debuggingForeground: Status Bar foreground color when a program is being debugged.
-    // statusBar.debuggingBorder: Status Bar border color separating the Status Bar and editor when a program is being debugged.
-    // statusBar.noFolderForeground: Status Bar foreground color when no folder is opened.
-    // statusBar.noFolderBackground: Status Bar background color when no folder is opened.
-    // statusBar.noFolderBorder: Status Bar border color separating the Status Bar and editor when no folder is opened.
+    // "statusBar.debuggingBackground": "{{}}",
+    // "statusBar.debuggingBorder": "{{}}",
+    // "statusBar.noFolderBackground": "{{}}",
+    // "statusBar.noFolderBorder": "{{}}",
+    "statusBarItem.prominentBackground": "{{boulder}}"
   },
 
   // https://www.sublimetext.com/docs/3/scope_naming.html

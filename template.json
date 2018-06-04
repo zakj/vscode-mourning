@@ -29,20 +29,20 @@
     "editorCursor.foreground": "{{bright-green}}",
     "editorLineNumber.activeForeground": "{{boulder}}",
     "editorLineNumber.foreground": "{{mineshaft2}}",
+    "editor.findMatchHighlightBackground": "{{green-yellow}}22",
 
     "statusBar.background": "{{mineshaft2}}",
     "statusBar.foreground": "{{silver}}",
-    // "statusBar.debuggingBackground": "{{}}",
-    // "statusBar.debuggingBorder": "{{}}",
-    // "statusBar.noFolderBackground": "{{}}",
-    // "statusBar.noFolderBorder": "{{}}",
+    "statusBar.debuggingBackground": "{{mineshaft2}}",
+    "statusBar.debuggingBorder": "{{bittersweet}}",
+    "statusBar.noFolderBackground": "{{mineshaft2}}",
+    "statusBar.noFolderBorder": "{{wisteria}}",
     "statusBarItem.prominentBackground": "{{boulder}}"
   },
 
   // https://www.sublimetext.com/docs/3/scope_naming.html
   "tokenColors": [
     {
-      "name": "Comments",
       "scope": "comment",
       "settings": {
         "foreground": "{{boulder}}",
@@ -50,14 +50,12 @@
       }
     },
     {
-      "name": "Constants and strings",
       "scope": ["constant", "string"],
       "settings": {
         "foreground": "{{wild-blue}}"
       }
     },
     {
-      "name": "Keywords",
       "scope": ["keyword", "entity.name.tag"],
       "settings": {
         "fontStyle": "bold",
@@ -65,7 +63,6 @@
       }
     },
     {
-      "name": "Variables",
       "scope": "variable",
       "settings": {
         "foreground": "{{silver}}"

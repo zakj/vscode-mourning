@@ -43,20 +43,28 @@
   // https://www.sublimetext.com/docs/3/scope_naming.html
   "tokenColors": [
     {
-      "scope": "comment",
+      "scope": ["comment", "string.quoted.docstring"],
       "settings": {
         "foreground": "{{boulder}}",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["constant", "string"],
+      "scope": [
+        "constant",
+        "keyword.other.unit.css",
+        "string"
+      ],
       "settings": {
         "foreground": "{{wild-blue}}"
       }
     },
     {
-      "scope": ["keyword", "entity.name.tag"],
+      "scope": [
+        "entity.name.tag",
+        "keyword",
+        "support.type.property-name.json"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "{{silver}}"

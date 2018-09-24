@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "private": true,
-  "publisher": "TODO",
+  "publisher": "zakj",
   "scripts": {
     "build": "mkdir -p themes && mustache vars.json template.json >themes/theme.json",
     "dist": "npm run build && vsce package",

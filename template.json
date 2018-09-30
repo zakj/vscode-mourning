@@ -37,7 +37,29 @@
     "statusBar.debuggingBorder": "{{bittersweet}}",
     "statusBar.noFolderBackground": "{{mineshaft2}}",
     "statusBar.noFolderBorder": "{{wisteria}}",
-    "statusBarItem.prominentBackground": "{{boulder}}"
+    "statusBarItem.prominentBackground": "{{boulder}}",
+
+    "terminal.foreground": "#929292",
+    "terminal.background": "{{mineshaft0}}",
+    "terminalCursor.background": "{{black}}",
+    "terminalCursor.foreground": "{{bright-green}}",
+
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightBlack": "#63676b",
+    "terminal.ansiRed": "#c88a68",
+    "terminal.ansiBrightRed": "#e5aa8a",
+    "terminal.ansiGreen": "#64c48a",
+    "terminal.ansiBrightGreen": "#86e1a9",
+    "terminal.ansiYellow": "#b8b78a",
+    "terminal.ansiBrightYellow": "#d5d4a9",
+    "terminal.ansiBlue": "#678cc7",
+    "terminal.ansiBrightBlue": "#89abe4",
+    "terminal.ansiMagenta": "#b98db9",
+    "terminal.ansiBrightMagenta": "#d7acd6",
+    "terminal.ansiCyan": "#88b8b9",
+    "terminal.ansiBrightCyan": "#a8d5d6",
+    "terminal.ansiWhite": "#d6d6d6",
+    "terminal.ansiBrightWhite": "#e6e9ed"
   },
 
   // https://www.sublimetext.com/docs/3/scope_naming.html

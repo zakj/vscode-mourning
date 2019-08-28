@@ -28,8 +28,8 @@
     ]
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.1",
-    "mustache": "^2.3.2",
-    "vsce": "^1.49.2"
+    "chokidar-cli": "^2.0.0",
+    "mustache": "^3.0.3",
+    "vsce": "^1.66.0"
   }
 }

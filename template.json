@@ -67,7 +67,7 @@
     {
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
-        "foreground": "{{boulder}}",
+        "foreground": "{{dark-grey}}",
         "fontStyle": "italic"
       }
     },

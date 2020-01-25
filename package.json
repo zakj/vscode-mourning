@@ -3,7 +3,7 @@
   "displayName": "mourning",
   "description": "Minimal, monochrome-ish dark theme",
   "repository": "https://github.com/zakj/vscode-mourning",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "private": true,
   "publisher": "zakj",

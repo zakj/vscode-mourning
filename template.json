@@ -4,43 +4,43 @@
 
   // https://code.visualstudio.com/docs/getstarted/theme-color-reference
   "colors": {
-    "titleBar.activeBackground": "{{mineshaft2}}",
+    "titleBar.activeBackground": "{{shark}}",
     "titleBar.activeForeground": "{{silver}}",
-    "titleBar.inactiveBackground": "{{mineshaft2}}",
-    "titleBar.inactiveForeground": "{{grey}}",
+    "titleBar.inactiveBackground": "{{shark}}",
+    "titleBar.inactiveForeground": "{{granite}}",
 
-    "activityBar.background": "{{mineshaft2}}",
+    "activityBar.background": "{{shark}}",
     "activityBar.foreground": "{{silver}}",
 
-    "sideBar.background": "{{mineshaft1}}",
-    "sideBar.foreground": "{{grey}}",
+    "sideBar.background": "{{galaxy}}",
+    "sideBar.foreground": "{{granite}}",
     "sideBarTitle.foreground": "{{silver}}",
-    "sideBarSectionHeader.background": "{{mineshaft2}}",
+    "sideBarSectionHeader.background": "{{shark}}",
     "sideBarSectionHeader.foreground": "{{silver}}",
 
-    "editorGroupHeader.tabsBackground": "{{mineshaft1}}",
-    "tab.inactiveBackground": "{{mineshaft1}}",
-    "tab.activeBackground": "{{mineshaft0}}",
+    "editorGroupHeader.tabsBackground": "{{galaxy}}",
+    "tab.inactiveBackground": "{{galaxy}}",
+    "tab.activeBackground": "{{carbon}}",
 
-    "editor.background": "{{mineshaft0}}",
-    "editor.foreground": "{{grey}}",
+    "editor.background": "{{carbon}}",
+    "editor.foreground": "{{granite}}",
     "editorBracketMatch.border": "{{bright-green}}",
     "editorCursor.background": "{{black}}",
     "editorCursor.foreground": "{{bright-green}}",
-    "editorLineNumber.activeForeground": "{{boulder}}",
-    "editorLineNumber.foreground": "{{mineshaft2}}",
+    "editorLineNumber.activeForeground": "{{iron}}",
+    "editorLineNumber.foreground": "{{shark}}",
     "editor.findMatchHighlightBackground": "{{green-yellow}}22",
 
-    "statusBar.background": "{{mineshaft2}}",
+    "statusBar.background": "{{shark}}",
     "statusBar.foreground": "{{silver}}",
-    "statusBar.debuggingBackground": "{{mineshaft2}}",
+    "statusBar.debuggingBackground": "{{shark}}",
     "statusBar.debuggingBorder": "{{bittersweet}}",
-    "statusBar.noFolderBackground": "{{mineshaft2}}",
+    "statusBar.noFolderBackground": "{{shark}}",
     "statusBar.noFolderBorder": "{{wisteria}}",
-    "statusBarItem.prominentBackground": "{{boulder}}",
+    "statusBarItem.prominentBackground": "{{iron}}",
 
     "terminal.foreground": "#929292",
-    "terminal.background": "{{mineshaft0}}",
+    "terminal.background": "{{carbon}}",
     "terminalCursor.background": "{{black}}",
     "terminalCursor.foreground": "{{bright-green}}",
 
@@ -67,7 +67,7 @@
     {
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
-        "foreground": "{{dark-grey}}",
+        "foreground": "{{cement}}",
         "fontStyle": "italic"
       }
     },

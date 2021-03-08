@@ -93,6 +93,14 @@
       }
     },
     {
+      "scope": ["markup.bold"],
+      "settings": {"fontStyle": "bold"}
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {"fontStyle": "italic"}
+    },
+    {
       "scope": "variable",
       "settings": {
         "foreground": "{{silver}}"

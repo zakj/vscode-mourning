@@ -24,7 +24,8 @@
 
     "editor.background": "{{grey-1}}",
     "editor.foreground": "{{grey-8}}",
-    "editorBracketMatch.border": "{{bright-green}}",
+    "editorBracketMatch.background": "{{grey-3}}",
+    "editorBracketMatch.border": "{{transparent}}",
     "editorCursor.background": "{{grey-0}}",
     "editorCursor.foreground": "{{bright-green}}",
     "editorLineNumber.activeForeground": "{{grey-5}}",

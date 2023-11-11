@@ -1,12 +1,13 @@
-# README
+# Mourning
 
-A minimal, monochrome-ish dark theme, loosely based on [vim-mourning][].
+![brief color palette](palette.png)
 
-Install via:
+A minimal, mostly monochrome dark theme.
 
-    npm install
-    npm run dist
+![screenshot of the theme in use with some Javascript](preview.png)
+
+Install from the vscode extensions marketplace, or locally via:
+
+    pnpm install
+    pnpm run dist
     code --install-extension mourning-*.vsix
-
-
-[vim-mourning]: https://github.com/zakj/vim-mourning

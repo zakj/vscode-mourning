@@ -4,44 +4,44 @@
 
   // https://code.visualstudio.com/docs/getstarted/theme-color-reference
   "colors": {
-    "titleBar.activeBackground": "{{shark}}",
-    "titleBar.activeForeground": "{{silver}}",
-    "titleBar.inactiveBackground": "{{shark}}",
-    "titleBar.inactiveForeground": "{{granite}}",
+    "titleBar.activeBackground": "{{grey-3}}",
+    "titleBar.activeForeground": "{{grey-b}}",
+    "titleBar.inactiveBackground": "{{grey-3}}",
+    "titleBar.inactiveForeground": "{{grey-8}}",
 
-    "activityBar.background": "{{shark}}",
-    "activityBar.foreground": "{{silver}}",
+    "activityBar.background": "{{grey-3}}",
+    "activityBar.foreground": "{{grey-b}}",
 
-    "sideBar.background": "{{galaxy}}",
-    "sideBar.foreground": "{{granite}}",
-    "sideBarTitle.foreground": "{{silver}}",
-    "sideBarSectionHeader.background": "{{shark}}",
-    "sideBarSectionHeader.foreground": "{{silver}}",
+    "sideBar.background": "{{grey-2}}",
+    "sideBar.foreground": "{{grey-8}}",
+    "sideBarTitle.foreground": "{{grey-b}}",
+    "sideBarSectionHeader.background": "{{grey-3}}",
+    "sideBarSectionHeader.foreground": "{{grey-b}}",
 
-    "editorGroupHeader.tabsBackground": "{{galaxy}}",
-    "tab.inactiveBackground": "{{galaxy}}",
-    "tab.activeBackground": "{{carbon}}",
+    "editorGroupHeader.tabsBackground": "{{grey-2}}",
+    "tab.inactiveBackground": "{{grey-2}}",
+    "tab.activeBackground": "{{grey-1}}",
 
-    "editor.background": "{{carbon}}",
-    "editor.foreground": "{{granite}}",
+    "editor.background": "{{grey-1}}",
+    "editor.foreground": "{{grey-8}}",
     "editorBracketMatch.border": "{{bright-green}}",
-    "editorCursor.background": "{{black}}",
+    "editorCursor.background": "{{grey-0}}",
     "editorCursor.foreground": "{{bright-green}}",
-    "editorLineNumber.activeForeground": "{{iron}}",
-    "editorLineNumber.foreground": "{{shark}}",
+    "editorLineNumber.activeForeground": "{{grey-5}}",
+    "editorLineNumber.foreground": "{{grey-3}}",
     "editor.findMatchHighlightBackground": "{{green-yellow}}22",
 
-    "statusBar.background": "{{shark}}",
-    "statusBar.foreground": "{{silver}}",
-    "statusBar.debuggingBackground": "{{shark}}",
+    "statusBar.background": "{{grey-3}}",
+    "statusBar.foreground": "{{grey-b}}",
+    "statusBar.debuggingBackground": "{{grey-3}}",
     "statusBar.debuggingBorder": "{{bittersweet}}",
-    "statusBar.noFolderBackground": "{{shark}}",
+    "statusBar.noFolderBackground": "{{grey-3}}",
     "statusBar.noFolderBorder": "{{wisteria}}",
-    "statusBarItem.prominentBackground": "{{iron}}",
+    "statusBarItem.prominentBackground": "{{grey-5}}",
 
     "terminal.foreground": "#929292",
-    "terminal.background": "{{carbon}}",
-    "terminalCursor.background": "{{black}}",
+    "terminal.background": "{{grey-1}}",
+    "terminalCursor.background": "{{grey-0}}",
     "terminalCursor.foreground": "{{bright-green}}",
 
     "terminal.ansiBlack": "#000000",
@@ -67,16 +67,12 @@
     {
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
-        "foreground": "{{cement}}",
+        "foreground": "{{grey-6}}",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "constant",
-        "keyword.other.unit.css",
-        "string"
-      ],
+      "scope": ["constant", "keyword.other.unit.css", "string"],
       "settings": {
         "foreground": "{{wild-blue}}"
       }
@@ -89,21 +85,25 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "{{silver}}"
+        "foreground": "{{grey-b}}"
       }
     },
     {
       "scope": ["markup.bold"],
-      "settings": {"fontStyle": "bold"}
+      "settings": {
+        "fontStyle": "bold"
+      }
     },
     {
       "scope": ["markup.italic"],
-      "settings": {"fontStyle": "italic"}
+      "settings": {
+        "fontStyle": "italic"
+      }
     },
     {
       "scope": "variable",
       "settings": {
-        "foreground": "{{silver}}"
+        "foreground": "{{grey-b}}"
       }
     }
   ]

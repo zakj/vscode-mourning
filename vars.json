@@ -1,17 +1,18 @@
 {
-  "black": "#080808",
-  "carbon": "#1c1c1c",
-  "galaxy": "#262626",
-  "shark": "#3a3a3a",
-  "iron": "#585858",
-  "cement": "#6c6c6c",
-  "granite": "#8a8a8a",
-  "silver": "#bcbcbc",
+  "grey-0": "#080808",
+  "grey-1": "#1c1c1c",
+  "grey-2": "#262626",
+  "grey-3": "#3a3a3a",
+  "grey-5": "#585858",
+  "grey-6": "#6c6c6c",
+  "grey-8": "#8a8a8a",
+  "grey-b": "#bcbcbc",
   "white": "#e4e4e4",
 
   "bright-green": "#5fff87",
   "wisteria": "#875f87",
   "wild-blue": "#8787af",
   "green-yellow": "#afff5f",
-  "bittersweet": "#ff5f5f"
+  "bittersweet": "#ff5f5f",
+  "transparent": "#0000"
 }
